@@ -1,0 +1,33 @@
+﻿table, thead {
+    width: 500px;
+    border: 1px solid #9e9e9e;
+    border-collapse: collapse;
+    font-family: Arial;
+}
+
+th {
+    background-color: #4cff00;
+    color: white;
+    text-align: left;
+    font-style: normal;
+    vertical-align: middle;
+    padding: 2px;
+    border-left: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+}
+
+td {
+    vertical-align: middle;
+    padding: 2px;
+    border-left: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+}
+
+tr:nth-child(2n) {
+    background-color: #eeeeee;
+}
+
+img {
+    vertical-align: middle;
+    padding: 5px;
+}

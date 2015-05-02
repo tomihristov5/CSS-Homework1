@@ -1,0 +1,47 @@
+﻿table {
+    background-color: #595959;
+    font-family: Arial;
+    color: #BBBBBB
+}
+
+td {
+    padding: 0.3em;
+}
+
+th {
+    font-size: 1.3em;
+    font-weight: normal;
+    float: left;
+}
+
+td:nth-child(1) {
+    color: white;
+    font-style: italic;
+}
+
+td:nth-child(2) {
+    padding-right: 7em;
+}
+
+.yellow {
+    color: #E3F196;
+}
+
+.red{
+    color: #FC0317;
+    font-weight: bold;
+}
+
+.orange{
+    color: #CD6447;
+    font-weight: bold;
+}
+
+.circle{
+    background-color: #71B47A;
+    border-radius: 50%;
+    width: 0.8em;
+    height: 0.8em;
+    display: inline-block;
+}
+
